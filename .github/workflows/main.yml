@@ -25,6 +25,5 @@ jobs:
           version: "0.13.8"
 
       - name: Run unit tests
-        - name: Run unit tests
         run: |
           uv run --with coverage coverage run -m unittest circle_tests rectangle_tests square_tests triangle_tests -v
